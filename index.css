@@ -1,0 +1,214 @@
+.rounded-img {
+    border-radius: 50%;
+    height: 20px;
+}
+
+.nav-link a{
+    color: hsla(39, 93%, 95%, 1);
+    font-family: DM Serif Display Serif;
+
+}
+
+
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 5px;
+}
+
+/* .custom-btn {
+    background-color: hsla(35, 87%, 49%, 1);
+} */
+
+.center-content h2{
+    font-size: 20px;
+    color: hsla(35, 87%, 49%, 1);
+    margin-top: 200px;
+
+}
+
+.center-content p {
+    font-size: 3.8rem;
+    font-family: DM sans;
+}
+
+
+.mydescription{
+    font-size: 4.2rem;
+    font-family: DM Serif Display Serif;
+    color: hsla(127, 8%, 22%, 1);
+
+}
+
+
+
+/* about */
+.toggle-buttons {
+    margin-top: 20px;
+}
+
+.btn-toggle {
+    margin-right: 10px;
+}
+
+.myabout{
+    color: hsla(35, 87%, 49%, 1);
+    margin-top: 50px;
+    font-family: DM Serif Display Serif;
+
+}
+
+.mylist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mylist li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.mylist li:before {
+    content: "\25A0"; /* Unicode for solid square */
+    color: hsla(35, 87%, 49%, 1);
+    font-family: DM Serif Display Serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 5px;
+}
+
+
+/* skills container */
+
+.skills-container {
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.subject {
+    font-weight: thin;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    /* color: #fff; */
+    background-color: hsla(35, 87%, 49%, 1);
+    color: #000; /* Black text */
+    
+}
+
+
+/* about page */
+
+.talk-section{
+    font-size: 6.2rem;
+    font-family: DM Serif Display Serif;
+    color: hsla(127, 8%, 22%, 1);
+
+}
+
+.mybutton{
+    font-size: 2.6rem;
+    color: hsla(127, 8%, 22%, 1);
+}
+
+.social-link {
+    font-size: 50px; 
+    color: hsla(35, 87%, 49%, 1);
+}
+
+.contact-details{
+    font-size: 20px; 
+
+}
+.contact-details p{
+    font-size: 30px; 
+    font-family: DM Serif Display Serif;
+
+
+}
+
+.email{
+    font-size: 20px;
+}
+
+.phone{
+    font-size: 20px;
+}
+
+
+.mycontact{
+    font-size: 50px;
+    font-family: DM Serif Display Serif;
+    margin-bottom: 40px;
+    color: hsla(127, 8%, 22%, 1);
+    margin-top: 30px;
+
+}
+
+
+
+/* footer */
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.footer-links a {
+    color: hsla(39, 93%, 95%, 1);
+    text-decoration: none; 
+}
+
+.footer-links a:hover {
+    color: hsla(35, 87%, 49%, 1);
+   
+}
+
+
+/* service */
+.myservice{
+    color: hsla(127, 8%, 22%, 1);
+    font-family: DM Serif Display Serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.my-icon{
+    color: hsla(35, 87%, 49%, 1);
+
+}
+
+
+
+
+@media screen {
+
+    .rounded-img {
+        height: 50px;
+        margin-top: 390px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        max-width: 300px; 
+    }
+}
